@@ -2,7 +2,7 @@
 {
     class StaticLocalFunctions
     {
-        internal int ClassicCapture()
+        internal static int ClassicCapture()
         {
             int y;
             LocalFunction();
@@ -14,7 +14,7 @@
             void LocalFunction() => y = 19;
         }
 
-        internal int NonCapturing()
+        internal static int NonCapturing()
         {
             int y = 5,
                 x = 7;

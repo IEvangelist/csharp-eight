@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -15,9 +16,11 @@ namespace IEvangelist.CSharp.Eight
 
             public Statement(int id, string description) 
                 => (Id, Description) = (id, description);
+
+            public override string ToString() => Description;
         }
 
-        internal static IEnumerable<Statement> GetStatements(bool error)
+        static IEnumerable<Statement> GetStatements(bool error)
         {
             if (error)
             {
@@ -29,10 +32,10 @@ namespace IEvangelist.CSharp.Eight
             yield return new Statement(3, "More examples...");
         }
 
-        internal static Task<IEnumerable<Statement>> GetStatementsAsync() 
+        static Task<IEnumerable<Statement>> GetStatementsAsync() 
             => Task.FromResult(Enumerable.Empty<Statement>()); // Imagine...
 
-        internal static async IAsyncEnumerable<Statement> GetStatementsAsync(bool error)
+        static async IAsyncEnumerable<Statement> GetStatementsAsync(bool error)
         {
             foreach (var statement in GetStatements(error))
             {
@@ -41,13 +44,16 @@ namespace IEvangelist.CSharp.Eight
             }
         }
 
-        internal async Task GetExampleAsync()
+        internal static async Task GetExampleAsync()
         {
             // Deferred execution
-            // Plus the potential for suspended execution 
+            // Plus the potential for suspended execution
+            var watch = new Stopwatch();
+            watch.Start();
+
             await foreach (var statement in GetStatementsAsync(false))
             {
-                Console.WriteLine(statement);
+                Console.WriteLine($"Elapsed time {watch.Elapsed}, {statement}");
             }
         }
     }
