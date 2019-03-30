@@ -25,7 +25,7 @@
 
 ## Target Type New Expressions
 
-@code[csharp code-reveal-fast zoom-12](/IEvangelist.CSharp.Eight/TargetTypes.cs)
+@code[csharp code-reveal-fast zoom-12](/target-type-new-expressions.txt)
 
 @snap[south span-100]
 @[7-16](Today, what it looks like...)

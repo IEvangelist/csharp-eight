@@ -6,12 +6,4 @@
     <LangVersion>8.0</LangVersion>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Compile Remove="TargetTypes.cs" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Include="TargetTypes.cs" />
-  </ItemGroup>
-
 </Project>
