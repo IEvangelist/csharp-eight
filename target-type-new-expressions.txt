@@ -4,7 +4,7 @@ class Example {
 
 
 
-    Point[] TraditionalPoints =
+    Point[] Points =
     {
         new Point(1, 4),
         new Point(31, -2),
@@ -23,7 +23,7 @@ class Example {
 
 
 
-    Point[] NicePoints =
+    Point[] Points =
     {
         new (1, 4),
         new (31, -2),
