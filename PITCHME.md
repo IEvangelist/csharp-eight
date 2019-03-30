@@ -28,7 +28,7 @@
 
 # Sorry... 😢
 
-> One feature relies on a new runtime: Default Interface Implementations. The new CLR will be part of __.NET Core 3.0__. It will __not__ be delivered with __.NET Framework 4.8__.
+> The "Default Interface Implementations" feature relies on a new runtime. The new CLR will be part of __.NET Core 3.0__. It will __not__ be delivered with __.NET Framework 4.8__.
 
 +++
 
