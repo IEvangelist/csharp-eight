@@ -1,6 +1,7 @@
 ﻿@snap[north span-100]
-<h2>Exploring C# 8</h2>
-<h1>A Deep Dive for 🤓</h1>
+<h2>Exploring @color[magenta](C# 8)</h2>
+<h1>A Deep Dive for</h1>
+<h1>🤓</h1>
 @snapend
 
 @snap[south-west]
