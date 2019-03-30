@@ -4,6 +4,6 @@ remote-control-prevkey: 38
 remote-control-nextkey: 40
 highlight: an-old-hope
 eager-loading : true
-published: false
+published: true
 theme-override : assets/styles.css
-footnote: "C# 8   •   davidpine.net   •   @davidpine7"
+footnote: "Exploring C# 8   •   davidpine.net   •   @davidpine7"
