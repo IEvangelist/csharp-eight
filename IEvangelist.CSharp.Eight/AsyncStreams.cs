@@ -10,6 +10,7 @@ namespace IEvangelist.CSharp.Eight
         struct Statement
         {
             public int Id { get; }
+
             public string Description { get; }
 
             public Statement(int id, string description) 

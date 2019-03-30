@@ -1,5 +1,7 @@
-﻿# Exploring C# 8
-## A Deep Dive for 🤓 
+﻿@snap[north span-100]
+<h2>Exploring C# 8</h2>
+<h1>A Deep Dive for 🤓</h1>
+@snapend
 
 @snap[south-west]
 [@color[#0084b4](@fa[twitter] @davidpine7)](https://twitter.com/davidpine7)
