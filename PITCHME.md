@@ -13,21 +13,34 @@
 
 +++
 
-# Notes
+# Notes from @color[#008AD7](Microsoft)
+
+> Most features are implemented entirely in the compiler.
+
++++
+
+# Notes from @color[#008AD7](Microsoft)
 
 > A few feature require __.NET Standard 2.1__ or __.NET Core 3.0__
 
 +++
 
+# Sorry... 😢
+
+> One feature relies on a new runtime: Default Interface Implementations. The new CLR will be part of __.NET Core 3.0__. It will __not__ be delivered with __.NET Framework 4.8__.
+
++++
+
+
 # Async Streams
 
-> Newly added types `netstandard2.1` and `netcoreapp3.0`
+> Types added to @color[white](__netstandard2.1__) and @color[white](__netcoreapp3.0__)
 
- @ul[no-bullets]
+@ul[no-bullets span-70]
 
- - `IAsyncDisposable`
- - `IAsyncEnumerable<T>`
- - `IAsyncEnumerator<T>`
+ - @color[white](System.)@color[cyan](`IAsyncDisposable`)
+ - @color[white](System.)@color[cyan](`IAsyncEnumerable<T>`)
+ - @color[white](System.)@color[cyan](`IAsyncEnumerator<T>`)
 
 @ulend
 
@@ -35,12 +48,12 @@
 
 # Ranges
 
-> Newly added types `netstandard2.1` and `netcoreapp3.0`
+> Types added to @color[white](__netstandard2.1__) and @color[white](__netcoreapp3.0__)
 
- @ul[no-bullets]
+@ul[no-bullets span-70]
 
- - `Range` 
- - `Index`
+ - @color[white](System.)@color[yellow](`Range`) 
+ - @color[white](System.)@color[yellow](`Index`)
 
 @ulend
 
@@ -67,7 +80,8 @@
 
 +++
 
-# C# 8 Demo ⌨
+# @color[magenta](C# 8)
+# Live @color[red](@fa[code]) Demo
 
 +++
 

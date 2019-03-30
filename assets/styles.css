@@ -7,3 +7,7 @@ body div.slides > section > section.present > pre > code {
 .no-bullets {
     list-style-type: none !important;
 }
+
+.no-bullets > li {
+    left: 0;
+}
