@@ -62,6 +62,18 @@
 
 +++
 
+## Default Interface Methods
+
+@code[csharp code-reveal-fast zoom-14](/default-interface-methods.txt)
+
+@snap[south span-100]
+@[10-12](We start with an @color[cyan](`IRepository`) interface.)
+@[20-27](We need to add to the API.)
+@[40-50](We can then provide a @color[grey](default) impl.)
+@snapend
+
++++
+
 ## Target Type New Expressions
 
 @code[csharp code-reveal-fast zoom-12](/IEvangelist.CSharp.Eight/PatternMatching.cs)
