@@ -5,7 +5,7 @@ namespace IEvangelist.CSharp.Eight
 {
     class UsingDeclarations
     {
-        static void WriteLinesToFileClassic(IEnumerable<string> lines)
+        internal static void WriteLinesToFileClassic(IEnumerable<string> lines)
         {
             using (var file = new StreamWriter("Text.txt"))
             {
@@ -16,7 +16,7 @@ namespace IEvangelist.CSharp.Eight
             }
         }
 
-        static void WriteLinesToFile(IEnumerable<string> lines)
+        internal static void WriteLinesToFile(IEnumerable<string> lines)
         {
             using var file = new StreamWriter("Text.txt");
             foreach (string line in lines)

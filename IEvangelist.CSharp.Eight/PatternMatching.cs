@@ -32,7 +32,7 @@ namespace IEvangelist.CSharp.Eight
     /// </summary>
     static class SwitchExpressions
     {
-        public static RGBColor FromRainbowClassic(this Rainbow rainbowBolor)
+        internal static RGBColor FromRainbow(this Rainbow rainbowBolor)
         {
             switch (rainbowBolor)
             {
@@ -55,7 +55,7 @@ namespace IEvangelist.CSharp.Eight
             };
         }
 
-        public static RGBColor FromRainbow(Rainbow rainbowColor) =>
+        internal static RGBColor TasteTheRainbow(Rainbow rainbowColor) =>
             rainbowColor switch
         {
             Rainbow.Red => new RGBColor(0xFF, 0x00, 0x00),
@@ -69,7 +69,7 @@ namespace IEvangelist.CSharp.Eight
         };
     }
 
-    public class Address
+    class Address
     {
         public string AddressLine1 { get; set; }
         public string AddressLine2 { get; set; }
@@ -84,7 +84,7 @@ namespace IEvangelist.CSharp.Eight
     /// </summary>
     static class PropertyPatterns
     {
-        public static decimal ComputeSalesTax(
+        internal static decimal ComputeSalesTax(
             Address location,
             decimal salePrice) =>
             location switch
@@ -103,7 +103,7 @@ namespace IEvangelist.CSharp.Eight
     /// </summary>
     static class TuplePatterns
     {
-        public static string RockPaperScissors(
+        internal static string RockPaperScissors(
             string first,
             string second)
             => (first, second) switch
@@ -156,7 +156,7 @@ namespace IEvangelist.CSharp.Eight
     /// </summary>
     static class ObjectPatterns
     {
-        public static string ShapeDetails(this Shape shape)
+        internal static string ShapeDetails(this Shape shape)
             => shape switch
         {
             Circle c => $"circle with (C): {c.Circumference}",
@@ -195,7 +195,7 @@ namespace IEvangelist.CSharp.Eight
     /// </summary>
     static class PositionalPatterns
     {
-        static Quadrant AsQuadrant(Point point) => point switch
+        internal static Quadrant AsQuadrant(Point point) => point switch
         {
             (0, 0) => Quadrant.Origin,
             var (x, y) when x > 0 && y > 0 => Quadrant.One,

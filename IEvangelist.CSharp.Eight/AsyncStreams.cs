@@ -7,7 +7,7 @@ namespace IEvangelist.CSharp.Eight
 {
     class AsyncStreams
     {
-        struct Statement
+        internal struct Statement
         {
             public int Id { get; }
 
@@ -17,7 +17,7 @@ namespace IEvangelist.CSharp.Eight
                 => (Id, Description) = (id, description);
         }
 
-        static IEnumerable<Statement> GetStatements(bool error)
+        internal static IEnumerable<Statement> GetStatements(bool error)
         {
             if (error)
             {
@@ -29,10 +29,10 @@ namespace IEvangelist.CSharp.Eight
             yield return new Statement(3, "More examples...");
         }
 
-        static Task<IEnumerable<Statement>> GetStatementsAsync() 
+        internal static Task<IEnumerable<Statement>> GetStatementsAsync() 
             => Task.FromResult(Enumerable.Empty<Statement>()); // Imagine...
 
-        static async IAsyncEnumerable<Statement> GetStatementsAsync(bool error)
+        internal static async IAsyncEnumerable<Statement> GetStatementsAsync(bool error)
         {
             foreach (var statement in GetStatements(error))
             {
@@ -41,7 +41,7 @@ namespace IEvangelist.CSharp.Eight
             }
         }
 
-        async Task GetExampleAsync()
+        internal async Task GetExampleAsync()
         {
             // Deferred execution
             // Plus the potential for suspended execution 
