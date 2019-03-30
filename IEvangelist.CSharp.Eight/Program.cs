@@ -82,6 +82,12 @@ namespace IEvangelist.CSharp.Eight
 
             #endregion
 
+            #region NULLABLE REFERENCE TYPES
+
+            //WriteLine(NullableReferenceTypes.Exemplify());
+
+            #endregion
+
             await Task.CompletedTask;
 
             WriteLine("Press any key to continue.");
