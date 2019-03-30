@@ -88,6 +88,13 @@
 
 +++
 
+# Resources
+
+ - [What's new in @color[magenta](C# 8) : http://bit.ly/2CVVPjh @color[grey](@fa[link])](http://bit.ly/2CVVPjh)
+ - [Building @color[magenta](C# 8) : http://bit.ly/2CKn1kB @color[grey](@fa[link])](http://bit.ly/2CKn1kB)
+
++++
+
 # Thank you
 
 @snap[south-west]
