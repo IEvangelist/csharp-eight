@@ -22,7 +22,7 @@
 
 # Notes from @color[#008AD7](Microsoft)
 
-> A few feature require __.NET Standard 2.1__ or __.NET Core 3.0__
+> A few features require __.NET Standard 2.1__ or __.NET Core 3.0__
 
 +++
 
