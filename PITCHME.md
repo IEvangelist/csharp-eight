@@ -1,7 +1,7 @@
 ﻿@snap[north span-100]
 <h2>Exploring @color[magenta](C# 8)</h2>
-<h1>A Deep Dive for</h1>
-<h1>🤓</h1>
+<h1>The Deep Dive</h1>
+@size[5em](🤓)
 @snapend
 
 @snap[south-west]
@@ -53,8 +53,8 @@
 
 @ul[no-bullets span-70]
 
- - @color[white](System.)@color[yellow](`Range`) 
- - @color[white](System.)@color[yellow](`Index`)
+ - @color[white](System.)@color[#e7ce59](`Range`) 
+ - @color[white](System.)@color[#e7ce59](`Index`)
 
 @ulend
 
