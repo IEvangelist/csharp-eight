@@ -13,6 +13,10 @@
 
 +++
 
+# Notes
+
++++
+
 ## Target Type New Expressions
 
 @code[csharp code-reveal-fast zoom-12](/IEvangelist.CSharp.Eight/PatternMatching.cs)
@@ -31,3 +35,7 @@
 @[7-16](Today, what it looks like...)
 @[26-35](Types are declared, so they're known.)
 @snapend
+
++++
+
+# Thank you 

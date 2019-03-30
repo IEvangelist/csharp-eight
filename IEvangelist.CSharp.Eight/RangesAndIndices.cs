@@ -8,6 +8,7 @@ namespace IEvangelist.CSharp.Eight
         {
             var words = new string[]
             {
+                //                                 "hat operator"
                             // index from start    index from end
                 "The",      // 0                   ^9
                 "quick",    // 1                   ^8

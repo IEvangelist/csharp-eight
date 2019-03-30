@@ -13,18 +13,22 @@ namespace IEvangelist.CSharp.Eight
         Violet
     }
 
-    public class RGBColor
+    class RGBColor
     {
-        public byte Red { get; }
-        public byte Green { get; }
-        public byte Blue { get; }
+        internal byte Red { get; }
 
-        public RGBColor(byte red, byte green, byte blue)
+        internal byte Green { get; }
+
+        internal byte Blue { get; }
+
+        internal RGBColor(byte red, byte green, byte blue)
         {
             Red = red;
             Green = green;
             Blue = blue;
         }
+
+        public override string ToString() => $"rgb({Red}, {Green}, {Blue})";
     }
 
     /// <summary>
