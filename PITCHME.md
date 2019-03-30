@@ -16,19 +16,21 @@
 
 # Notes from @color[#008AD7](Microsoft)
 
-> Most features are implemented entirely in the compiler.
+> Most features are implemented entirely in the @color[white](C# Compiler).
 
 +++
 
 # Notes from @color[#008AD7](Microsoft)
 
-> A few features require __.NET Standard 2.1__ or __.NET Core 3.0__
+> A few features require @color[white](__.NET Standard 2.1__) or @color[white](__.NET Core 3.0__)
 
 +++
 
 # Sorry... 😢
 
-> The "Default Interface Implementations" feature relies on a new runtime. The new CLR will be part of __.NET Core 3.0__. It will __not__ be delivered with __.NET Framework 4.8__.
+> The "Default Interface Implementations" feature relies on a new runtime. The new CLR will be part of @color[white](__.NET Core 3.0__).
+>
+> It will __not__ be delivered with @color[white](__.NET Framework 4.8__).
 
 +++
 
@@ -65,7 +67,7 @@
 @code[csharp code-reveal-fast zoom-12](/IEvangelist.CSharp.Eight/PatternMatching.cs)
 
 @snap[south span-100]
-@[173-184](A simple `Point` class.)
+@[173-184](A simple @color[cyan](`Point`) class.)
 @snapend
 
 +++
