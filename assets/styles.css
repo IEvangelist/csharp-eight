@@ -1,0 +1,9 @@
+﻿body { }
+
+body div.slides > section > section.present > pre > code {
+    overflow: hidden !important;
+}
+
+.no-bullets {
+    list-style-type: none !important;
+}

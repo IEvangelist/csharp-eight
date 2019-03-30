@@ -7,7 +7,7 @@ namespace IEvangelist.CSharp.Eight
     {
         static async Task Main()
         {
-            #region PATTERN MATCHING IMPROVEMENTS
+            #region 1. PATTERN MATCHING IMPROVEMENTS
 
             //WriteLine("1. SWITCH EXPRESSIONS");
             //WriteLine($"Legacy switch: {SwitchExpressions.FromRainbow(Rainbow.Violet)}");
@@ -44,27 +44,27 @@ namespace IEvangelist.CSharp.Eight
 
             #endregion
 
-            #region ASYNC STREAMS
+            #region 2. ASYNC STREAMS
 
             //await AsyncStreams.GetExampleAsync();
 
             #endregion
 
-            #region RANGE & INDEX
+            #region 3. RANGE & INDEX
 
             // Range / Index
             //RangesAndIndices.WordUp();
 
             #endregion
 
-            #region STATIC LOCAL FUNCTIONS
+            #region 4. STATIC LOCAL FUNCTIONS
 
             StaticLocalFunctions.ClassicCapture();
             StaticLocalFunctions.NonCapturing();
 
             #endregion
 
-            #region USING DECLARATIONS
+            #region 5. USING DECLARATIONS
 
             await UsingDeclarations.WriteLinesToFileClassicAsync(
                 new[]

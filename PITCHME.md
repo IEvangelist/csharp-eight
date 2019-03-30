@@ -15,6 +15,35 @@
 
 # Notes
 
+> A few feature require __.NET Standard 2.1__ or __.NET Core 3.0__
+
++++
+
+# Async Streams
+
+> Newly added types `netstandard2.1` and `netcoreapp3.0`
+
+ @ul[no-bullets]
+
+ - `IAsyncDisposable`
+ - `IAsyncEnumerable<T>`
+ - `IAsyncEnumerator<T>`
+
+@ulend
+
++++
+
+# Ranges
+
+> Newly added types `netstandard2.1` and `netcoreapp3.0`
+
+ @ul[no-bullets]
+
+ - `Range` 
+ - `Index`
+
+@ulend
+
 +++
 
 ## Target Type New Expressions
@@ -22,7 +51,7 @@
 @code[csharp code-reveal-fast zoom-12](/IEvangelist.CSharp.Eight/PatternMatching.cs)
 
 @snap[south span-100]
-@[169-180](A simple `Point` class.)
+@[173-184](A simple `Point` class.)
 @snapend
 
 +++
@@ -38,4 +67,16 @@
 
 +++
 
-# Thank you 
+# C# 8 Demo ⌨
+
++++
+
+# Thank you
+
+@snap[south-west]
+[@color[#0084b4](@fa[twitter] @davidpine7)](https://twitter.com/davidpine7)
+@snapend
+
+@snap[south-east]
+[@color[red](davidpine.net @fa[globe])](http://davidpine.net/)
+@snapend
