@@ -181,6 +181,10 @@ namespace IEvangelist.CSharp.Eight
 
         public void Deconstruct(out int x, out int y) 
             => (x, y) = (X, Y);
+
+        public static implicit operator Point(
+            (int X, int Y) tuple)
+            => new Point(tuple.X, tuple.Y);
     }
 
     enum Quadrant

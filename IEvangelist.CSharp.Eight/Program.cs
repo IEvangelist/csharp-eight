@@ -90,6 +90,12 @@ namespace IEvangelist.CSharp.Eight
 
             await Task.CompletedTask;
 
+            Point pt = (1, 3);
+            Point[] points = new Point[]
+            {
+                (7, 7)
+            };
+
             WriteLine("Press any key to continue.");
             ReadLine();
         }
