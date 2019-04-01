@@ -7,4 +7,5 @@ eager-loading : true
 published: true
 theme-override: assets/styles.css
 logo: assets/csharp-logo.png
+title: "Exploring C# 8"
 footnote: "Exploring C# 8   •   davidpine.net   •   @davidpine7"
