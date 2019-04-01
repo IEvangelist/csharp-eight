@@ -82,22 +82,20 @@ namespace IEvangelist.CSharp.Eight
 
             #endregion
 
-            #region NULLABLE REFERENCE TYPES
+            #region 6. NULLABLE REFERENCE TYPES
 
             //WriteLine(NullableReferenceTypes.Exemplify());
 
             #endregion
 
-            await Task.CompletedTask;
+            #region Regions are terrible!
 
-            Point pt = (1, 3);
-            Point[] points = new Point[]
-            {
-                (7, 7)
-            };
+            await Task.CompletedTask;
 
             WriteLine("Press any key to continue.");
             ReadLine();
+
+            #endregion
         }
     }
 }
