@@ -13,3 +13,7 @@ body div.slides > section > section.present > pre > code {
 .no-bullets > li {
     left: 0;
 }
+
+.keyword {
+    color: #0094ff;
+}

@@ -4,10 +4,7 @@ namespace IEvangelist.CSharp.Eight
 {
     class NullableReferenceTypes
     {
-        static void Main()
-        {
-            Console.WriteLine(Exemplify());
-        }
+        static void Main() => Console.WriteLine(Exemplify());
 
         #nullable disable // Toggle to enable
 

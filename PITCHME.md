@@ -104,6 +104,23 @@
 
 ---
 
+## Summary
+
+@ul[span-80](false)
+
+ - __Pattern Matching__ Improvements
+ - @css[keyword](`async`) Streams
+ - __Nullable Reference__ Types
+ - The new @color[#e7ce59](`Range`) and @color[#e7ce59](`Index`) Types
+ - @css[keyword](`static`) Local Methods
+ - Implicit @color[cyan](`Dispose`) / @css[keyword](`using`) Declarations
+ - Default Interface Methods
+ - Target Type @css[keyword](`new`) Expressions
+
+@ulend
+
+---
+
 # Resources
 
  - [What's new in @color[magenta](C# 8) : http://bit.ly/2CVVPjh @color[grey](@fa[link])](http://bit.ly/2CVVPjh)

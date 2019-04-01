@@ -52,7 +52,7 @@ namespace IEvangelist.CSharp.Eight
         {
             foreach (var statement in GetStatements(error))
             {
-                await Task.Delay(350);
+                await Task.Delay(1000);
                 yield return statement;
             }
         }

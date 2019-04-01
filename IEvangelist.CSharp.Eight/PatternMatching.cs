@@ -10,7 +10,7 @@ namespace IEvangelist.CSharp.Eight
             WriteLine("1. SWITCH EXPRESSIONS");
             WriteLine($"Legacy switch: {SwitchExpressions.FromRainbow(Rainbow.Violet)}");
             WriteLine($"Expressive switch: {SwitchExpressions.TasteTheRainbow(Rainbow.Red)}");
-
+            WriteLine();
 
             WriteLine("2. PROPERTY PATTERNS");
             var brookfieldSalesTax =
@@ -24,21 +24,22 @@ namespace IEvangelist.CSharp.Eight
                     new Address { State = "WI", City = "Milwaukee" },
                     100);
             WriteLine($"Milwaukee Sales Tax: {milwaukeeSalesTax}");
-
+            WriteLine();
 
             WriteLine("3. TUPLE PATTERNS");
             WriteLine($"{TuplePatterns.RockPaperScissors("rock", "rock")}");
             WriteLine($"{TuplePatterns.RockPaperScissors("rock", "paper")}");
             WriteLine($"{TuplePatterns.RockPaperScissors("scissors", "paper")}");
             WriteLine($"{TuplePatterns.RockPaperScissors("rock", "scissors")}");
-
+            WriteLine();
 
             WriteLine("4. OBJECT PATTERNS");
             WriteLine($"Square: {ObjectPatterns.ShapeDetails(new Rectangle(7, 7))}");
-
+            WriteLine();
 
             WriteLine("POSITIONAL PATTERNS");
             WriteLine($"Point quadrant = {PositionalPatterns.AsQuadrant(new Point(-3, 9))}");
+            WriteLine();
         }
     }
 

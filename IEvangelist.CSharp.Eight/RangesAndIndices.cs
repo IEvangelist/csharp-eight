@@ -34,8 +34,8 @@ namespace IEvangelist.CSharp.Eight
 
             // Ranges have a start/end Index.
             // "readonly struct"
-            Index start = lastTwo.Start;
-            Index end = lastTwo.End;
+            Index start = lastTwo.Start,
+                  end = lastTwo.End;
 
             // The "Index" struct has these members:
             bool isFromEnd = start.IsFromEnd;
