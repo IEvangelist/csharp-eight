@@ -79,8 +79,8 @@
 @code[csharp code-reveal-fast zoom-12](/IEvangelist.CSharp.Eight/PatternMatching.cs)
 
 @snap[south span-100]
-@[173-180](A simple @color[cyan](`Point`) class.)
-@[182-188](With @color[#e7ce59](`Deconstruct`) & @color[magenta](`implicit operator`).)
+@[214-221](A simple @color[cyan](`Point`) class.)
+@[223-229](With @color[#e7ce59](`Deconstruct`) & @color[magenta](`implicit operator`).)
 @snapend
 
 ---
