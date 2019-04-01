@@ -12,19 +12,19 @@
 [@color[red](davidpine.net @fa[globe])](http://davidpine.net/)
 @snapend
 
-+++
+---
 
 # Notes from @color[#008AD7](Microsoft)
 
 > Most features are implemented entirely in the @color[white](C# Compiler).
 
-+++
+---
 
 # Notes from @color[#008AD7](Microsoft)
 
 > A few features require @color[white](__.NET Standard 2.1__) or @color[white](__.NET Core 3.0__)
 
-+++
+---
 
 # Sorry... 😢
 
@@ -32,7 +32,7 @@
 >
 > It will __not__ be delivered with @color[white](__.NET Framework 4.8__).
 
-+++
+---
 
 
 # Async Streams
@@ -47,7 +47,7 @@
 
 @ulend
 
-+++
+---
 
 # Ranges
 
@@ -60,7 +60,7 @@
 
 @ulend
 
-+++
+---
 
 ## Default Interface Methods
 
@@ -72,7 +72,7 @@
 @[40-50](We can then provide a @color[grey](default) impl.)
 @snapend
 
-+++
+---
 
 ## Target Type New Expressions
 
@@ -83,7 +83,7 @@
 @[182-188](With @color[#e7ce59](`Deconstruct`) & @color[magenta](`implicit operator`).)
 @snapend
 
-+++
+---
 
 ## Target Type New Expressions
 
@@ -95,21 +95,21 @@
 @[45-54](Existed before @color[magenta](C# 8), using @color[magenta](`implicit operator`).)
 @snapend
 
-+++
+---
 
 # @color[magenta](C# 8)
 # Live @color[red](@fa[code]) Demo
 
 [Code : http://bit.ly/2V3fdla @color[grey](@fa[link])](http://bit.ly/2V3fdla)
 
-+++
+---
 
 # Resources
 
  - [What's new in @color[magenta](C# 8) : http://bit.ly/2CVVPjh @color[grey](@fa[link])](http://bit.ly/2CVVPjh)
  - [Building @color[magenta](C# 8) : http://bit.ly/2CKn1kB @color[grey](@fa[link])](http://bit.ly/2CKn1kB)
 
-+++
+---
 
 # Thank you
 
