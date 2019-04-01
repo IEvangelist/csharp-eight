@@ -6,6 +6,23 @@ namespace IEvangelist.CSharp.Eight
 {
     class UsingDeclarations
     {
+        static async Task Main()
+        {
+            await WriteLinesToFileClassicAsync(
+                new[]
+                {
+                    "I still dispose explicitly...",
+                    "Someday, I dream I won't have to."
+                });
+
+            await WriteLinesToFileAsync(
+                new[]
+                {
+                    "The C# language, is great!",
+                    "What will they think of next?"
+                });
+        }
+
         internal static async Task WriteLinesToFileClassicAsync(IEnumerable<string> lines)
         {
             using (var file = new StreamWriter("Text.txt"))

@@ -4,7 +4,7 @@ namespace IEvangelist.CSharp.Eight
 {
     class RangesAndIndices
     {
-        internal static void WordUp()
+        static void Main()
         {
             var words = new string[]
             {

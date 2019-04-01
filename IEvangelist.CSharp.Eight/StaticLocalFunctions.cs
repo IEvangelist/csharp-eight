@@ -2,6 +2,15 @@
 {
     class StaticLocalFunctions
     {
+        static void Main()
+        {
+            // Implicitly captured variables in the method scope
+            ClassicCapture();
+
+            // Now we can explicitly prevent that
+            NonCapturing();
+        }
+
         internal static int ClassicCapture()
         {
             int y;

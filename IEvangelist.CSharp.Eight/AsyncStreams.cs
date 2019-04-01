@@ -8,13 +8,26 @@ namespace IEvangelist.CSharp.Eight
 {
     class AsyncStreams
     {
+        static async Task Main()
+        {
+            // Deferred execution
+            // Plus the potential for suspended execution
+            var watch = new Stopwatch();
+            watch.Start();
+
+            await foreach (var statement in GetStatementsAsync(false))
+            {
+                Console.WriteLine($"Elapsed time {watch.Elapsed}, {statement}");
+            }
+        }
+
         internal struct Statement
         {
             public int Id { get; }
 
             public string Description { get; }
 
-            public Statement(int id, string description) 
+            public Statement(int id, string description)
                 => (Id, Description) = (id, description);
 
             public override string ToString() => Description;
@@ -32,7 +45,7 @@ namespace IEvangelist.CSharp.Eight
             yield return new Statement(3, "More examples...");
         }
 
-        static Task<IEnumerable<Statement>> GetStatementsAsync() 
+        static Task<IEnumerable<Statement>> GetStatementsAsync()
             => Task.FromResult(Enumerable.Empty<Statement>()); // Imagine...
 
         static async IAsyncEnumerable<Statement> GetStatementsAsync(bool error)
@@ -41,19 +54,6 @@ namespace IEvangelist.CSharp.Eight
             {
                 await Task.Delay(350);
                 yield return statement;
-            }
-        }
-
-        internal static async Task GetExampleAsync()
-        {
-            // Deferred execution
-            // Plus the potential for suspended execution
-            var watch = new Stopwatch();
-            watch.Start();
-
-            await foreach (var statement in GetStatementsAsync(false))
-            {
-                Console.WriteLine($"Elapsed time {watch.Elapsed}, {statement}");
             }
         }
     }

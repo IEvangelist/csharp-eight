@@ -1,7 +1,14 @@
-﻿namespace IEvangelist.CSharp.Eight
+﻿using System;
+
+namespace IEvangelist.CSharp.Eight
 {
     class NullableReferenceTypes
     {
+        static void Main()
+        {
+            Console.WriteLine(Exemplify());
+        }
+
         #nullable disable // Toggle to enable
 
         class Person
