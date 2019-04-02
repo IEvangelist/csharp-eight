@@ -4,6 +4,8 @@ pre > code,
 body > div.reveal.none.center.has-horizontal-slides.ready > div.slides > section.present > pre > code,
 body div.slides > section > section.present > pre > code {
     overflow: hidden !important;
+    border-radius: 10px !important;
+    padding: 20px !important;
 }
 
 .no-bullets {
@@ -16,4 +18,13 @@ body div.slides > section > section.present > pre > code {
 
 .keyword {
     color: #0094ff;
+}
+
+pre {
+    border-radius: 10px !important;
+}
+
+blockquote {
+    border-radius: 10px !important;
+    padding: 20px !important;
 }
