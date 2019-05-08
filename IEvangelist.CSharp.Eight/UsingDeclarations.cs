@@ -27,7 +27,7 @@ namespace IEvangelist.CSharp.Eight
         {
             using (var file = new StreamWriter("Text.txt"))
             {
-                foreach (string line in lines)
+                foreach (var line in lines)
                 {
                     await file.WriteLineAsync(line);
                 }
@@ -39,7 +39,7 @@ namespace IEvangelist.CSharp.Eight
             // Implicitly disposes, when out of scope!
 
             using var file = new StreamWriter("Text.txt");
-            foreach (string line in lines)
+            foreach (var line in lines)
             {
                 await file.WriteLineAsync(line);
             }

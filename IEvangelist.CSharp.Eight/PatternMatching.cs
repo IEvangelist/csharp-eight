@@ -137,6 +137,7 @@ namespace IEvangelist.CSharp.Eight
             { State: "WA" } => salePrice * 0.06m,
             { State: "WI", City: "Milwaukee" } => salePrice * 0.056m,
             { State: "WI" } => salePrice * 0.05m,
+            { State: "MN" } => salePrice * 6.875m, // Too much!
 
             // Other cases removed for brevity...
             _ => 0M

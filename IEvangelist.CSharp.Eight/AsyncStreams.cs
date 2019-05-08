@@ -15,7 +15,8 @@ namespace IEvangelist.CSharp.Eight
             var watch = new Stopwatch();
             watch.Start();
 
-            await foreach (var statement in GetStatementsAsync(false))
+            var statements = GetStatementsAsync(false);
+            await foreach (var statement in statements)
             {
                 Console.WriteLine($"Elapsed time {watch.Elapsed}, {statement}");
             }
